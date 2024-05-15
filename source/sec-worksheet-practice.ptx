@@ -80,7 +80,7 @@
           <p>Pick and choose amongst the following for more
           practice.</p>
         </introduction>
-        <task>
+        <task workspace="10cm">
           <p>
           If <m>n</m> is even, then <m>n^2</m> is even.
           </p>
