@@ -82,7 +82,7 @@
         </introduction>
         <task workspace="10cm">
           <p>
-          If <m>n</m> is even, then <m>n^2</m> is even.
+          If <m>n</m> is even, then <m>n^2</m> is even. (The workspace after this task should be twice as long)
           </p>
         </task>
         <task><p>If <m>n</m> and <m>m</m> are even,
