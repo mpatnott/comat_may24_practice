@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-worksheet2">
+    <title>Attempt at Own Worksheet</title>
+    
+    <worksheet xml:id="ws-fxn-reps">
+        <page>
+            <p>
+                Here's a paragraph of text. <em>This sentence is emphasized.</em> <q>This sentence is in quotes.</q> Here's some inline math: <m>x + y^2</m>. Now it's time to define a term inline: An integer <m>n</m> is <term>even</term> provided that there exists an integer <m>x</m> such that <me>n = 2x</me>.
+            </p>
+            <definition xml:id="def-odd">
+                <statement>
+                    <p>
+                        An integer <m>n</m> is <term>odd</term> provided that there exists an integer <m>x</m> such that <m>n = 2x + 1</m>.
+                    </p>
+                </statement>
+            </definition>
+            <axiom xml:id="axiom-closure">
+                <statement>
+                    <p>
+                        The integers are closed under multiplication.
+                    </p>
+                </statement>
+            </axiom>
+            <lemma xml:id="lem-evensclosed">
+                <statement>
+                    <p>
+                        The set of all even integers is closed under multiplication.
+                    </p>
+                </statement>
+            </lemma>
+            <theorem xml:id="thm-evensquare">
+                <statement>
+                    <p>
+                        If <m>n</m> is an even integer, then <m>n^2</m> is even.
+                    </p>
+                </statement>
+            </theorem>
+            <proof>
+                <p>
+                    Observe that <m>n^2 = n \times n</m>. Since <m>n</m> is even, <xref ref = "lem-evensclosed"/> tells us that <m>n^2</m> is also even.
+                </p>
+            </proof>
+            <p>
+                Numbered list of my three favorite animals:
+                <ol marker="1">
+                    <li>
+                        Platypus
+                    </li>
+                    <li>
+                        Spider
+                    </li>
+                    <li>
+                        Seastar
+                    </li>
+                </ol>
+                Unordered list of my three favorite numbers:
+                <ul>
+                    <li>
+                        <m>-i</m>
+                    </li>
+                    <li><m>\sqrt{2}</m></li>
+                    <li>
+                        7 vs <m>7</m>
+                    </li>
+                </ul>
+            </p>
+        </page>
+        <page>
+            <activity>
+                Describe the differences between these two tables.
+                <table>
+                    <tabular>
+                        <col right="minor"/>
+                        <col right="medium"/>
+                        <col/>
+                        <row bottom="major">
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                        </row>
+                        <row>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                            <cell>6</cell>
+                        </row>
+                    </tabular>
+                </table>
+                <me>
+                    \begin{array}{c|c|c}
+                        1 \amp 2 \amp 3 \\ \hline
+                        4 \amp 5 \amp 6
+                    \end{array}
+                </me>
+            </activity>
+        </page>
+    </worksheet>
+</section>

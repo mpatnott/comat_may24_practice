@@ -10,6 +10,7 @@
   <!-- include sections -->
   <xi:include href="sec-section-name.ptx" />
   <xi:include href="sec-worksheet-practice.ptx"/>
+  <xi:include href="sec-worksheet2" />
 
 
 </chapter>

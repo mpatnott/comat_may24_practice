@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-worksheets" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Some worksheets</title>
+    <title>Some worksheets (example copied from Mitch)r</title>
 
     <worksheet>
         <title>Practicing Writing Proofs</title>
@@ -80,9 +80,9 @@
           <p>Pick and choose amongst the following for more
           practice.</p>
         </introduction>
-        <task workspace="10cm">
+        <task workspace="5cm">
           <p>
-          If <m>n</m> is even, then <m>n^2</m> is even. (The workspace after this task should be twice as long.)
+          If <m>n</m> is even, then <m>n^2</m> is even.
           </p>
         </task>
         <task><p>If <m>n</m> and <m>m</m> are even,
