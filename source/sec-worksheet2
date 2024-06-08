@@ -94,5 +94,92 @@
                 </me>
             </activity>
         </page>
+        <page>
+            <example>
+                Here's an example for you to try.
+                <hint>
+                    <p>
+                        A hint if you're stuck!
+                    </p>
+                </hint>
+                <hint>
+                    <p>
+                        Another hint?
+                    </p>
+                </hint>
+                <solution>
+                    <p>
+                        The answer!
+                    </p>
+                </solution>
+            </example>
+            <exercise> <!--Looks different because it's in a worksheet. Within worksheets and exercises divisions, this is the behavior for exercise. Within "regular" divisions like chapter, section, etc., it will look like a Checkpoint.-->
+                <statement>
+                    <p>
+                        I think this is a <q>checkpoint</q> exercise?
+                    </p>
+                </statement>
+                <hint>
+                    With a hint?
+                </hint>
+            </exercise>
+        </page>
     </worksheet>
+    <!--Here's the other behavior of exercise-->
+    <p>We're outside of the worksheet! What happens now?!?</p>
+    <exercise>
+        <statement>
+            <p>
+                I think this is a <q>checkpoint</q> exercise?
+            </p>
+        </statement>
+        <hint>
+            With a hint?
+        </hint>
+    </exercise>
+    <page>
+        <title>Challenges</title>
+        <sidebyside widths="50% 50%" valign="middle">
+            <p>
+                <me>f(x)=x^2</me>
+            </p>
+
+            <table>
+                <tabular halign="center">
+                    <row header="yes" bottom = "major">
+                        <cell><m>x</m></cell>
+                        <cell><m>f(x)</m></cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>9</cell>
+                    </row>
+                </tabular>
+            </table>
+        </sidebyside>
+        <sidebyside widths="50% 50%" valign="middle">
+            <image xml:id="img-venns">
+                <shortdescription>Venn diagram</shortdescription>
+                <description>
+                    <p>
+                        Venn diagram with a red circle and a blue circle. The intersection is purple.
+                    </p>
+                </description>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \fill[fill = red!30] (-0.5,0) circle[radius=1];
+                        \fill[fill = blue!30] (0.5,0) circle[radius=1];
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </sidebyside>
+    </page>
 </section>
